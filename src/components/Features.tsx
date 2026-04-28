@@ -52,7 +52,7 @@ const Features = () => {
             Everything you need to become fluent
           </h2>
           <p className="text-lg text-muted-foreground">
-            Nigongohub combines proven learning methods with modern technology 
+            NihongoHub combines proven learning methods with modern technology 
             to create the most effective Japanese learning experience.
           </p>
         </div>

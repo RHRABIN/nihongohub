@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const links = {
     product: [
@@ -19,7 +21,7 @@ const Footer = () => {
       { name: "Press Kit", href: "#" },
     ],
     legal: [
-      { name: "Privacy Policy", href: "#" },
+      { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Terms of Service", href: "#" },
       { name: "Cookie Policy", href: "#" },
     ],
@@ -34,7 +36,7 @@ const Footer = () => {
             <a href="/" className="flex items-center gap-2 mb-4">
               <span className="text-3xl font-display font-bold text-primary">日</span>
               <span className="text-xl font-display font-semibold">
-                Nigongohub
+                NihongoHub
               </span>
             </a>
             <p className="text-background/70 mb-6 max-w-sm">
@@ -126,17 +128,17 @@ const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-background/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-background/60 text-sm">
-            © 2024 Nigongohub. All rights reserved.
+            © 2024 NihongoHub. All rights reserved.
           </p>
           <div className="flex gap-6">
             {links.legal.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
                 className="text-background/60 hover:text-background text-sm transition-colors"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

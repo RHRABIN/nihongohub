@@ -28,7 +28,7 @@ const Hero = () => {
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-foreground leading-tight mb-6 animate-fade-in-up opacity-0 stagger-2">
             Master Japanese with{" "}
-            <span className="text-gradient">Nigongohub</span>
+            <span className="text-gradient">NihongoHub</span>
           </h1>
 
           {/* Japanese subtitle */}

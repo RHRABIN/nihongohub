@@ -4,7 +4,7 @@ const testimonials = [
     role: "Software Developer",
     location: "San Francisco, USA",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
-    quote: "Nigongohub made learning Japanese feel like a game. I went from zero to passing N4 in just 8 months!",
+    quote: "NihongoHub made learning Japanese feel like a game. I went from zero to passing N4 in just 8 months!",
     japanese: "楽しく学べました！",
   },
   {
@@ -20,7 +20,7 @@ const testimonials = [
     role: "Language Teacher",
     location: "Tokyo, Japan",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-    quote: "As a Japanese teacher, I recommend Nigongohub to all my students. The curriculum is well-structured.",
+    quote: "As a Japanese teacher, I recommend NihongoHub to all my students. The curriculum is well-structured.",
     japanese: "おすすめです",
   },
 ];
@@ -39,7 +39,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-lg text-muted-foreground">
             Join thousands of satisfied learners who have transformed 
-            their Japanese skills with Nigongohub.
+            their Japanese skills with NihongoHub.
           </p>
         </div>
 

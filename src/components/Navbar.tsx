@@ -20,7 +20,7 @@ const Navbar = () => {
           <a href="/" className="flex items-center gap-2">
             <span className="text-2xl font-display font-bold text-primary">日</span>
             <span className="text-xl font-display font-semibold text-foreground">
-              Nigongohub
+              NihongoHub
             </span>
           </a>
 

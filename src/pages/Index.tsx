@@ -12,16 +12,16 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Nigongohub - Learn Japanese the Modern Way</title>
+        <title>NihongoHub - Learn Japanese the Modern Way</title>
         <meta
           name="description"
-          content="Master Japanese with Nigongohub. Interactive lessons, native audio, AI-powered practice, and JLPT preparation. Start learning Japanese for free today."
+          content="Master Japanese with NihongoHub. Interactive lessons, native audio, AI-powered practice, and JLPT preparation. Start learning Japanese for free today."
         />
         <meta
           name="keywords"
           content="learn Japanese, Japanese language, JLPT, hiragana, katakana, kanji, Japanese lessons"
         />
-        <link rel="canonical" href="https://nigongohub.com" />
+        <link rel="canonical" href="https://NihongoHub.com" />
       </Helmet>
 
       <div className="min-h-screen">
